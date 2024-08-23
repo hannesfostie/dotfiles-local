@@ -1,0 +1,28 @@
+# Bundler
+alias b="bundle"
+
+# Git
+alias g="git"
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit -v"
+alias gd="git diff"
+alias gca="gc -a"
+alias gp="git push"
+alias gl="git pull --rebase"
+alias gap="ga -p"
+alias gba="gb -a"
+alias gco="git checkout"
+alias gcp="gc -p"
+alias gst="git status"
+alias gbr="git recent"
+
+ # Heroku
+alias h="heroku"
+alias hr="h run"
+alias hrc="hr console"
+alias hl="h local"
+alias hlw="hl web"
+
+# unix
+alias less='less -R'
