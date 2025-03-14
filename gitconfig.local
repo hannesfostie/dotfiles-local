@@ -1,0 +1,25 @@
+[init]
+  templatedir = ~/.git_template
+[push]
+  default = current
+[color]
+  ui = auto
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[merge]
+  ff = only
+[commit]
+  template = ~/.gitmessage
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[diff]
+  colorMoved = zebra
+[user]
+  email = hannes.fostie@gmail.com
+  name = Hannes Fostie
+[branch]
+  autosetuprebase = always
+  autosetupmerge = true
